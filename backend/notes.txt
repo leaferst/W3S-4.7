@@ -1,0 +1,17 @@
+A backend server consists of:
+    - The endpoints that will be consumed
+    - Business logic to process requests
+    - Database to write and retrieve data from
+
+Typical Bakcend Layer:
+    Routing - URLS
+    --Middleware--
+    Controller - Request and response
+    Service - Business logics
+    ORM - Database Layer
+
+Today's lesson: 3-layer -- Routes, Controllers, and Models(ORM).
+
+Connection and model setup:
+    Create a connection file to connect to the database
+    Create a model file to define the table
